@@ -46,3 +46,13 @@ div.msg > span {
 	border-radius: 5px;
 	background: white;
 }
+
+img {
+	max-width: 600px;
+}
+
+.image-comment {
+	padding: 0px 30px;
+	font-style: italic;
+	color: #aaa;
+}
