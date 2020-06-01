@@ -56,3 +56,48 @@ img {
 	font-style: italic;
 	color: #aaa;
 }
+
+.mes { 
+	border-top-width: 1px;
+	border-right-width: 1px; 
+	border-bottom-width: 1px;
+	border-left-width: 1px; 
+	border-top-style: solid; 
+	border-right-style: solid; 
+	border-bottom-style: solid; 
+	border-left-style: solid; 
+	border-top-color: #666666; 
+	border-bottom-color: #666666; 
+	padding: 4px; 
+}
+
+.text { clear: both; }
+.nick { float: left; }
+.date { float: right; clear: right; }
+.nick#inc { color: #C83F6B; font: normal normal bold 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.nick#out { color: #0860BD; font: normal normal bold 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.date#inc { color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.date#out { color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event0 { background-color: #DBDBDB; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event1 { background-color: #EEEEEE; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event2 { background-color: #E3EE9B; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event3 { background-color: #E3EE9B; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event4 { background-color: #CCD9F4; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event5 { background-color: #CCD9F4; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event6 { background-color: #FEF4CF; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event7 { background-color: #FEF4CF; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event8 { background-color: #CFF4FE; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event9 { background-color: #CFF4FE; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event10 { background-color: #DCFECF; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event11 { background-color: #F0F0F0; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event12 { background-color: #FFFFFF; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event13 { background-color: #FFFFFF; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event14 { background-color: #FFFDD7; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event15 { background-color: #FFFDD7; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event16 { background-color: #FFFFC8; color: #0080C0; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event17 { background-color: #FFFFC8; color: #0080C0; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event18 { background-color: #F0F0F0; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event19 { background-color: #ABDFE9; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event20 { background-color: #FFFFFF; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#event21 { background-color: #FFFFFF; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+.mes#session { background-color: #FFFDD7; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
