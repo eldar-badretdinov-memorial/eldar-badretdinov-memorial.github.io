@@ -101,3 +101,44 @@ img {
 .mes#event20 { background-color: #FFFFFF; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
 .mes#event21 { background-color: #FFFFFF; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
 .mes#session { background-color: #FFFDD7; color: #000000; font: normal normal normal 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
+
+/* skype */
+
+	#content_table {
+		background: #fafaf8;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		width: 100%;
+		border: 1px solid #ddd;
+	}
+    #content_table td {
+      text-align: left;
+      vertical-align: top;
+    }
+    #content_table td.day {
+      border-bottom: 1px solid #E4E8ED;
+      padding-top: 3px; padding-bottom: 4px;
+    }
+    #content_table .weekday { font-weight: bold; }
+    .timestamp {
+      color: #999999;
+    }
+    #content_table .timestamp {
+      text-align: left;
+      width: 30px;
+    }
+    #content_table .timestamp span {
+      position: relative;
+      left: 5px;
+      top: -1px;
+      width: 11px;
+      height: 11px;
+    }
+    #content_table .author { min-width: 90px; text-align: right; }
+    .remote, .remote a { color: #3399FF; }
+    .local, .local a { color: #999999; }
+    #content_table .day.t3 {
+      padding: 5px;
+      background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAALCAIAAAAmzuBxAAAAK3RFWHRDcmVhdGlvbiBUaW1lAE4gMiB2ZWViciAyMDEyIDAxOjU5OjU2ICswMjAwk8LXDAAAAAd0SU1FB9wCAgAAKExUReUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAEZ0FNQQAAsY8L/GEFAAAAx0lEQVR42m2QPRJEQBBG29SWiEgkE3EAcwGXmTvZy7gAByCSKAnJEEnGW3bV7pYOprrfN/3rOedEZFmWpmn6vt+2zff9JEnyPA/DEEn4MQxDWZZ1XVtrCXnxIfBXPjHBNE3uMPzTgeCjKopTMIoi+TUIHFXRO01TuTM4qmK090Qfex6GA0d9MDmLXJ+MMddXOKpisa7rbrvAUZXWum3beZ7/ZAgc1WOxcRyrqsqyjNFoR3GykYuiiOPYO2+6ritX+r4p2UEQIO0jepg0AJyJFgAAAABJRU5ErkJggg==")
+                  center center no-repeat;
+    }
