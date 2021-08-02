@@ -2,6 +2,7 @@
 /*	font-family: Courier New;*/
 	font-family: monospace;
 }
+
 .container {
 	max-width: 600px;
 	margin: 0px auto;
@@ -71,7 +72,7 @@ img {
 	padding: 4px; 
 }
 
-.text { clear: both; }
+.mes .text { clear: both; }
 .nick { float: left; }
 .date { float: right; clear: right; }
 .nick#inc { color: #C83F6B; font: normal normal bold 9pt normal Tahoma, Tahoma, Verdana, Arial, sans-serif; text-decoration: none; }
@@ -165,3 +166,104 @@ img {
       background: url("data:image/gif;base64,R0lGODlhEwATAOYAAP//////9///7//35v/vxf/vpf/mzv/mpf/mnP/mjP/mhP/etf/erf/enP/ehP/eY//eIf/eGf/Wa//WUv/WSv/WOv/WMf/WKf/WIf/MZv/OUv/OQv/OOv/OKf/Fc//MM//OIf/Fa//FQv/FOv/FMf+9e//FKf+9a/+9c//FIf+9Y/+9Qv+9Ov+9Mf+9Kf+9If+1Y/+1Wv+1Uv+1Sv+1Qv+1Mf+1Ov+1If+1Kf+tWv+tOv+tMf+tKf+lQv+lOv+lMf+lKf+ZMzMzM////wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgBDACwAAAAAEwATAAAH/4BDgoIGKD0wiD0oBoONgjAlCwKTkwslMI5DAz0MBJ6fnww9A4ObDQeoqAipqA2jgjkhDrO0Cgq0syE5QwZBEr8SCZMFkwkPwEGFPxoaExMBQkIA0QEUzho/KD5AIhsbFdDS1BUc3jw+PzwtHx8WDwMDCvAPFx0fJjw/Pzg3Jh0dGAJCgBAQRAcTL27ow+HiRQoQATFEiBARRIoXOH7o2OHCRAohEDEMDAjy4g4dJzia8CfkgksMF4T8M+FixwkDOmqs/BetZ72DLXQwimGjBQl2FpImZUeChI0YggbosHH0A4erV5na0EEqKg0bI0ZgzTqCBo2ujVTQWLFCxAgRIhFW0FCRaZABDzNo5J3hgVGjQAAh+QQFCgBDACwAAAAAAQABAAAHA4BDgQAh+QQFCgBDACwFAAsACQADAAAHEIAgQ4OEQ4IdhUMXhIuDjYEAIfkEBQoAQwAsBwANAAUAAQAABwWAQoKCgQAh+QQFCgBDACwGAAwABwABAAAHB4BCQ4ODQoEAIfkEBQoAQwAsBQALAAkAAQAABwiAQkODhENCgQAh+QQFCgBDACwAAAAAAQABAAAHA4BDgQAh+QQFCgBDACwAAAAAAQABAAAHA4BDgQAh+QQFCgBDACwAAAAAAQABAAAHA4BDgQAh+QQFCgBDACwAAAAAAQABAAAHA4BDgQAh+QQFCgBDACwAAAAAAQABAAAHA4BDgQAh+QQFCgBDACwAAAAAAQABAAAHA4BDgQAh+QQJCgBDACwAAAAAEwATAAAHHYBDgoOEhYaHiImKi4yNjo+QkZKTlJWWl5iZmoqBADs=")
                   center center no-repeat;
     }
+/*
+* {
+	font-family: Verdana;
+	font-size: 12px;
+	width: 1000px;
+}
+*/
+.skype-msg {
+	padding: 5px;
+	background: #eee;
+	margin: 1px;
+	font-family: Verdana;
+	font-size: 11px;
+}
+.skype-who {
+	float: left;
+}
+.skype-who.a {
+	color: blue
+}
+.skype-who.e {
+	color: red
+}
+.skype-when {
+	float: right;
+	font-size: 8px;
+	margin-left: 10px;
+	color: #aaa;
+}
+.skype-text {
+	clear: both;
+	line-break: pre;
+}
+
+/* Telegram */
+
+.body {
+	margin-left: 60px;
+	font: 12px "Lucida Sans Unicode",Arial;
+}
+
+.default {
+	padding: 10px;
+/*	background: #f9f9f9;*/
+}
+.default.joined {
+    margin-top: -10px;
+}
+.pull_left {
+	float: left;
+}
+
+.userpic {
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.userpic1 {
+    background-color: #ff5555;
+}
+.userpic6 {
+    background-color: #e671a5;
+}
+
+.userpic .initials {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+ 		user-select: none;
+}
+
+.message .userpic .initials {
+    font-size: 16px;
+}
+
+.from_name {
+    color: #3892db;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.details {
+    color: #70777b;
+}
+.pull_right {
+    float: right;
+}
+.clearfix:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.body .text {
+    word-wrap: break-word;
+    line-height: 150%;
+}
