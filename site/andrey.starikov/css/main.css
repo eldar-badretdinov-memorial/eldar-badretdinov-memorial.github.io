@@ -23,11 +23,12 @@ h2 {
 }
 
 div.chat {
+	border: 2px solid black;
 	margin: 5px;
 	padding: 5px;
 	font-family: monospace;
-	background: #ddd;
-}
+/*	background: #ddd;
+*/}
 
 div.msg {
 	padding: 5px 0px 5px 0px;
@@ -45,7 +46,7 @@ div.right {
 div.msg > span {
 	padding: 4px 10px 4px 10px;
 	border-radius: 5px;
-	background: white;
+	background: #ddd;
 }
 
 img {
